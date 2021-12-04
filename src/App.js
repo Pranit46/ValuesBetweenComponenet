@@ -13,7 +13,7 @@ function App() {
             <div><Sidebar /></div>
             <div>
               <Routes>
-                    <Route path="/dashboard" element={<DashBoard value={data}/>}/>
+                    <Route path="/" element={<DashBoard value={data}/>}/>
               </Routes>
             </div>
           </div>
